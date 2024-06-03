@@ -20,7 +20,7 @@ const corsOption = {
     credential:true
 }
 
-app.use(cors(corsOption))
+app.use(cors())
 
 
 
